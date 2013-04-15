@@ -106,6 +106,10 @@ static struct fps funcs[] = {
   { str2long_davide_3, "davide_3", true },   
   { str2long_sidney, "sidney", true },   
   // { str2long_guillaume, "guillaume", false }, // incorrect output
+  // { str2long_codingjourney, "codingjourney", false}, // incorrect output
+  // { str2long_codingjourney_2, "codingjourney_2", false}, // incorrect output
+  // { str2long_codingjourney_3, "codingjourney_3", false}, // incorrect output
+  { str2long_codingjourney_4, "codingjourney_4", true},
   { str2long_libc, "libc", true },
   { NULL, NULL, false },
 };

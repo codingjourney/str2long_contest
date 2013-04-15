@@ -1,10 +1,10 @@
 #CC=clang -fsanitize=integer -fno-sanitize=unsigned-integer-overflow
 #CFLAGS=-O3 -Wall 
 
-CC=/opt/intel/bin/icc -fast
+#CC=/opt/intel/bin/icc -fast
 
-#CC=gcc 
-#CFLAGS=-O -Wall -g
+CC=gcc 
+CFLAGS=-O -Wall -g
 
 OBJS = 	daniel.o bernd.o pascal.o toby.o john.o \
 	patrick.o francois_2.o yolanpa.o phil.o mikael.o \
@@ -22,7 +22,8 @@ OBJS = 	daniel.o bernd.o pascal.o toby.o john.o \
 	adam_3.o ken_3.o dario.o dokoto_2.o gedare_2.o \
 	ben.o markus_2.o matthew_3.o robert_2.o ryanf_2.o \
 	ken_4.o adam_4.o davide.o sidney.o guillaume.o \
-	davide_3.o libc.o str2long_test.o
+	davide_3.o libc.o codingjourney.o codingjourney_2.o \
+	codingjourney_3.o codingjourney_4.o str2long_test.o
 
 all: str2long_test
 
